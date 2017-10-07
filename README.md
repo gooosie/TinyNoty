@@ -1,12 +1,17 @@
-# 小通知（Tiny Noty）
+# Tiny Noty
 
-一个轻量级的通知栏备忘小工具
+A Lightweight notification bar memo tool.
 
-## 简介
+[![中文版](https://img.shields.io/badge/readme-%E4%B8%AD%E6%96%87%E7%89%88-brightgreen.svg?style=flat-square)](/README_CN.md) [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg?style=flat-square)](/LICENSE) [![release](https://img.shields.io/github/release/gooosie/TinyNoty.svg?style=flat-square)](https://github.com/gooosie/TinyNoty/releases)
 
-小通知是一个仿照（[通知通知](https://play.google.com/store/apps/details?id=mark.notification)）的通知栏备忘小工具，可以让你的备忘录停留在通知栏上，Android4.1（Jelly Bean API16 ）以上支持多行显示，支持开机自启动（默认关闭），点击空白处三次可以显示自启动设置，允许通过系统内的分享功能将文本分享到小通知。
+## Introduction
 
-## 截图
+- Tiny Noty is a notification bar memo tool that imitate [Notice Notice](https://play.google.com/store/apps/details?id=mark.notification). You can keep your memo on the notification bar.
+- Android4.1（Jelly Bean API16 ）or above support multi-line display.
+- Support self-starting(disable by default). Click on the blank three times to display the self-starting settings.
+- Allows sharing of text to Tiny Noty through sharing functions within the system.
+
+## Screenshots
 
 ![Screenshot1](/docs/Screenshot_1.png)
 
@@ -14,10 +19,10 @@
 
 ![Screenshot3](/docs/Screenshot_3.png)
 
-## 下载
+## Release
 
-[下载](https://github.com/gooosie/TinyNoty/releases)
+[Release](https://github.com/gooosie/TinyNoty/releases)
 
-## 开源协议
+## License
 
 [Apache License 2.0](/LICENSE)
