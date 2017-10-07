@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_container"
+    android:layout_width="288dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.gooosie.tinynoty.MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_title"
+        style="@style/EditTextTheme"
+        android:hint="@string/noti_title" />
+
+    <EditText
+        android:id="@+id/edit_text_content"
+        style="@style/EditTextTheme"
+        android:layout_below="@id/edit_text_title"
+        android:hint="@string/noti_content" />
+
+    <CheckBox
+        android:id="@+id/check_box_self_starting"
+        style="@style/CheckBoxTheme"
+        android:layout_below="@id/edit_text_content"
+        android:visibility="gone"
+        android:text="@string/self_starting" />
+
+    <TextView
+        android:id="@+id/text_clear"
+        style="@style/ButtonTheme"
+        android:layout_alignLeft="@id/edit_text_content"
+        android:layout_alignStart="@id/edit_text_content"
+        android:layout_below="@id/check_box_self_starting"
+        android:text="@string/text_clear"
+        android:textColor="@color/colorHint" />
+
+    <TextView
+        android:id="@+id/text_ok"
+        style="@style/ButtonTheme"
+        android:layout_alignEnd="@id/edit_text_content"
+        android:layout_alignRight="@id/edit_text_content"
+        android:layout_below="@id/check_box_self_starting"
+        android:text="@string/text_ok"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

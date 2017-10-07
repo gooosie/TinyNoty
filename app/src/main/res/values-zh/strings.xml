@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小通知</string>
+    <string name="noti_content">内容</string>
+    <string name="noti_title">标题</string>
+    <string name="self_starting">自启动</string>
+    <string name="show_setting">显示设置</string>
+    <string name="text_clear">清除</string>
+    <string name="text_ok">确定</string>
+    <string name="toast_double_click_to_exit">双击退出</string>
+</resources>

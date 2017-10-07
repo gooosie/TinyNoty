@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tiny Noty</string>
+    <string name="noti_title">Title</string>
+    <string name="noti_content">Content</string>
+    <string name="text_clear">Clear</string>
+    <string name="text_ok">OK</string>
+    <string name="toast_double_click_to_exit">Double click to exit.</string>
+    <string name="self_starting">Self starting</string>
+    <string name="show_setting">Show setting.</string>
+</resources>
