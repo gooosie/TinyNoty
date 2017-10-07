@@ -13,11 +13,11 @@ A Lightweight notification bar memo tool.
 
 ## Screenshots
 
-![Screenshot1](/docs/Screenshot_1.png)
+![Screenshot1](/docs/Screenshot_1_en.png)
 
-![Screenshot2](/docs/Screenshot_2.png)
+![Screenshot2](/docs/Screenshot_2_en.png)
 
-![Screenshot3](/docs/Screenshot_3.png)
+![Screenshot3](/docs/Screenshot_3_en.png)
 
 ## Release
 
