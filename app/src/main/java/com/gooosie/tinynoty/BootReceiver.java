@@ -17,14 +17,14 @@ public class BootReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        SharedPreferences sharedPrefeneces = context.getSharedPreferences(MainActivity.KEY_SETTING, Context.MODE_PRIVATE);
+        SharedPreferences sharedPreferences = context.getSharedPreferences(MainActivity.KEY_SETTING, Context.MODE_PRIVATE);
 
-        if (!sharedPrefeneces.getBoolean(MainActivity.KEY_SELF_STARTING, false)) {
+        if (!sharedPreferences.getBoolean(MainActivity.KEY_SELF_STARTING, false)) {
             return;
         }
 
-        String title = sharedPrefeneces.getString(MainActivity.KEY_TITLE, "");
-        String content = sharedPrefeneces.getString(MainActivity.KEY_CONTENT, "");
+        String title = sharedPreferences.getString(MainActivity.KEY_TITLE, "");
+        String content = sharedPreferences.getString(MainActivity.KEY_CONTENT, "");
         if (title.length() <= 0 && content.length() <= 0) {
             return;
         }
